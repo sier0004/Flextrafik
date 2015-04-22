@@ -9,6 +9,10 @@ ecb.chk
 storage.ide
 FlextrafikWebApplication.mdf
 FlextrafikWebApplication_log.ldf
+**/ecb.chk
+**/storage.ide
+**/App_DataFlextrafikWebApplication.mdf
+**/App_DataFlextrafikWebApplication_log.ldf
 
 # Build results
 [Dd]ebug/
