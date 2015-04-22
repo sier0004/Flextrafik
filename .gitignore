@@ -7,6 +7,13 @@
 *.userosscache
 *.sln.docstates
 
+# Annoying Visual Studio 15 files.
+*.chk
+*.ide
+**/*.chk
+**/*.ide
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -177,6 +184,8 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
+**/*.mdf
+**/*.ldf
 
 # Business Intelligence projects
 *.rdl.data
