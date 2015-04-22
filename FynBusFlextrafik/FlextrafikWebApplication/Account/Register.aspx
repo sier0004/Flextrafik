@@ -30,8 +30,7 @@
             <asp:Label runat="server" AssociatedControlID="SecondaryCompany" CssClass="col-md-2 control-label">Evt. sekundært firma</asp:Label>
             <div class="col-md-10">
                 <asp:TextBox runat="server" ID="SecondaryCompany" TextMode="SingleLine" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="SecondaryCompany"
-                    CssClass="text-danger" ErrorMessage="." />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="SecondaryCompany" CssClass="text-danger" />
             </div>
         </div>
         <p></p>
