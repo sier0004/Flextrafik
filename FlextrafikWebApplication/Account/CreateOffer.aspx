@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="CarType" CssClass="col-md-2 control-label">Vogntype</asp:Label>
+            <asp:Label runat="server" CssClass="col-md-2 control-label">Vogntype</asp:Label>
             <div class="col-md-10">
                 <asp:RadioButton ID="CarType1" runat="server" Text="Type 1" />
             </div>

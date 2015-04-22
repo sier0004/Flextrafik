@@ -19,8 +19,8 @@
                 <dl class="dl-horizontal">
                     <dt>Tilbud:</dt>
                     <dd>
-                        <asp:HyperLink NavigateUrl="/Account/ShowOffer" Text="[Se]" Visible="false" ID="HyperLink1" runat="server" />
-                        <asp:HyperLink NavigateUrl="/Account/CreateOffer" Text="[Opret]" Visible="false" ID="HyperLink2" runat="server" />
+                        <asp:HyperLink NavigateUrl="/Account/ShowOffer" Text="[Se]" Visible="true" ID="HyperLink1" runat="server" />
+                        <asp:HyperLink NavigateUrl="/Account/CreateOffer" Text="[Opret]" Visible="true" ID="HyperLink2" runat="server" />
                     </dd>
                 </dl>
                 <dl class="dl-horizontal">
