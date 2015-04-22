@@ -85,7 +85,8 @@
                 SelectMethod="GetCars" >
                 <ItemTemplate>
                     <b style="font-size: large; font-style: normal">
-                        <a href="/ShowOffer.aspx?id=">
+                        <a href="/ShowOffer.aspx?id=<%#: Item.CarID %>">
+                        <%#: Item.CarType %>
                         </a>
                     </b>
                 </ItemTemplate>
