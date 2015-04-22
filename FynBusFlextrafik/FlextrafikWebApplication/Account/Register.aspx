@@ -31,7 +31,7 @@
             <div class="col-md-10">
                 <asp:TextBox runat="server" ID="SecondaryCompany" TextMode="SingleLine" CssClass="form-control" />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="SecondaryCompany"
-                    CssClass="text-danger" ErrorMessage="." />
+                    CssClass="text-danger" />
             </div>
         </div>
         <p></p>
@@ -56,7 +56,7 @@
             <div class="col-md-10">
                 <asp:TextBox runat="server" ID="ConfirmPassword" TextMode="Password" CssClass="form-control" />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="ConfirmPassword"
-                    CssClass="text-danger" Display="Dynamic" ErrorMessage="Du skal oprette en adgangskode." />
+                    CssClass="text-danger" Display="Dynamic" ErrorMessage="Du skal gentage adgangskoden." />
                 <asp:CompareValidator runat="server" ControlToCompare="Password" ControlToValidate="ConfirmPassword"
                     CssClass="text-danger" Display="Dynamic" ErrorMessage="Adgangskoder skal være ens." />
             </div>
