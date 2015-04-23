@@ -6,7 +6,7 @@
     </p>
 
     <div class="form-horizontal">
-        <h4>Opret et nyt tilbud</h4>
+        <h2>Opret et nyt tilbud</h2>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
         <div class="form-group">
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server">Vogntype</asp:Label>
+            <h4><asp:Label runat="server">Vogntype</asp:Label></h4>
             <br />  
             <div class="col-md-10">
                 <br />  

@@ -58,6 +58,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Register">Registrer</a></li>
                                 <li><a runat="server" href="~/Account/Login">Log ind</a></li>
+                       <%--          <li><a runat="server" href="~/Account/ShowOffer">Vis tilbud</a></li>--%>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -85,7 +86,7 @@
                 SelectMethod="GetCars" >
                 <ItemTemplate>
                     <b style="font-size: large; font-style: normal">
-                        <a href="/ShowOffer.aspx?id=<%#: Item.CarID %>">
+                        <a href="/Account/ShowOffer.aspx?id=<%#: Item.CarID %>">
                         <%#: Item.CarType %>
                         </a>
                     </b>

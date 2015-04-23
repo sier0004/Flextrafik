@@ -76,7 +76,7 @@ namespace FlextrafikWebApplication
 
         public IQueryable<Car> GetCars()
         {
-            var _db = new FlextrafikWebApplication .Models.Context();
+            var _db = new FlextrafikWebApplication.Models.Context();
             IQueryable<Car> query = _db.Cars;
             return query;
         }
