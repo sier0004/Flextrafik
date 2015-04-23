@@ -50,26 +50,30 @@
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server" CssClass="col-md-2 control-label">Vogntype</asp:Label>
+            <asp:Label runat="server">Vogntype</asp:Label>
+            <br />  
             <div class="col-md-10">
-                <asp:RadioButton ID="CarType1" runat="server" Text="Type 1" />
+                <br />  
+                <asp:RadioButton ID="CarType1" runat="server" CssClass="col-md-2 control-label" Text="Type 1" />
             </div>
             <div class="col-md-10">
-                <asp:RadioButton ID="CarType2" runat="server" Text="Type 2" />
+                <asp:RadioButton ID="CarType2" runat="server" CssClass="col-md-2 control-label" Text="Type 2" />
             </div>
             <div class="col-md-10">
-                <asp:RadioButton ID="CarType3" runat="server" Text="Type 3" />
+                <asp:RadioButton ID="CarType3" runat="server" CssClass="col-md-2 control-label" Text="Type 3" />
             </div>
             <div class="col-md-10">
-                <asp:RadioButton ID="CarType4" runat="server" Text="Type 4" />
+                <asp:RadioButton ID="CarType4" runat="server" CssClass="col-md-2 control-label" Text="Type 4" />
             </div>
             <div class="col-md-10">
-                <asp:RadioButton ID="CarType5" runat="server" Text="Type 5" />
+                <asp:RadioButton ID="CarType5" runat="server" CssClass="col-md-2 control-label" Text="Type 5" />
             </div>
             <div class="col-md-10">
-                <asp:RadioButton ID="CarType6" runat="server" Text="Type 6 (med trappemaskine)" />
+                <asp:RadioButton ID="CarType6" runat="server"  Text="Type 6 (med trappemaskine)" />
             </div>
+            <br />  
             <div class="col-md-offset-2 col-md-10">
+                <br />  
                 <asp:Button ID="CreateOfferButton" runat="server" Text="Opret" OnClick="CreateOfferButton_Click" />
             </div>  
         </div>

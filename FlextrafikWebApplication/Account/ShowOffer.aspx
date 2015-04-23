@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShowOffer.aspx.cs" Inherits="FlextrafikWebApplication.ShowOffer" Async="true" %>
+﻿<%@ Page Title="Se tilbud" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShowOffer.aspx.cs" Inherits="FlextrafikWebApplication.ShowOffer" Async="true" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-     <h2><%: Title %>.</h2>
+     <h2><%: Title %></h2>
 
     <div>
         <asp:PlaceHolder runat="server" ID="successMessage" Visible="false" ViewStateMode="Disabled">
