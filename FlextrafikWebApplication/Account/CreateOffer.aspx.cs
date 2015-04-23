@@ -86,6 +86,8 @@ namespace FlextrafikWebApplication
 
             _db.Cars.Add(newCar);
             _db.SaveChanges();
+
+            Response.Redirect("CreatePrice.aspx");
         }
     }
 }

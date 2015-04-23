@@ -11,7 +11,7 @@ namespace FlextrafikWebApplication.Models
         [ScaffoldColumn(false), Required]
         public int LocationID { get; set; }
 
-        public List<Car> CarsOnLocation { get; set; } //Ville have kun get
+        public List<Car> CarsOnLocation { get; set; } //get
                 
         [Required, Display(Name = "Vejenavn")]
         public string StreetName { get; set; }

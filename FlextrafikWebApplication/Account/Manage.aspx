@@ -21,6 +21,7 @@
                     <dd>
                         <asp:HyperLink NavigateUrl="/Account/ShowOffer" Text="[Se]" Visible="true" ID="HyperLink1" runat="server" />
                         <asp:HyperLink NavigateUrl="/Account/CreateOffer" Text="[Opret]" Visible="true" ID="HyperLink2" runat="server" />
+                        <asp:HyperLink NavigateUrl="/Account/ShowLocation" Text="[Hjemsted(er)]" Visible="true" ID="HyperLink3" runat="server" />
                     </dd>
                 </dl>
                 <dl class="dl-horizontal">

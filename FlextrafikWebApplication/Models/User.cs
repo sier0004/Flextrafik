@@ -9,9 +9,9 @@ namespace FlextrafikWebApplication.Models
     public class User
     {
         [ScaffoldColumn(false), Required]
-        public int UserID { get; set; } //Ville have kun get
+        public int UserID { get; set; } //get
 
-        public List<Car> UserCars { get; set; } //Ville have kun get
+        public List<Car> UserCars { get; set; } //get
         
         [Required, Display(Name = "Byders navn")]
         public string UserName { get; set; }

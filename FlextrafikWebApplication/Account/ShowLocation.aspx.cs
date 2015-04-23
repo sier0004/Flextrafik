@@ -8,22 +8,22 @@ using System.Web.UI.WebControls;
 
 using FlextrafikWebApplication.Models;
 
-namespace FlextrafikWebApplication
+namespace FlextrafikWebApplication.Account
 {
-    public partial class ShowOffer : System.Web.UI.Page
+    public partial class ShowLocation : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        public IQueryable<Car> GetCars([QueryString("id")] int? carId)
+        public IQueryable<Location> GetLocations([QueryString("id")] int? locationId)
         {
             var _db = new FlextrafikWebApplication.Models.Context();
-            IQueryable<Car> query = _db.Cars;
-            if (carId.HasValue && carId > 0)
+            IQueryable<Location> query = _db.Locations;
+            if (locationId.HasValue && locationId > 0)
             {
-                query = query.Where(p => p.CarID == carId);
+                query = query.Where(p => p.LocationID == locationId);
             }
             return query;
         }
