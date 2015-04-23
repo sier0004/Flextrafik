@@ -22,12 +22,12 @@ namespace FlextrafikWebApplication.Models
             {
                 new Car
                 {
-                    CarID = 1,
+                    CarID = 3040,
                     OfferNumber = 1,
                     GuaranteeCarNumber = 2,
-                    RegistrationNumber = 123456,
-                    ContactTelephone = "12 34 56 78",
-                    CarType = 1,
+                    RegistrationNumber = "AA11222",
+                    ContactTelephone = "24859999",
+                    CarType = 2,
                     //CarLocation = null,
                     //CarPrice = null,
                     //CarOwner = null
@@ -35,15 +35,15 @@ namespace FlextrafikWebApplication.Models
                 
                 new Car
                 {
-                    CarID = 3,
-                    OfferNumber = 2,
+                    CarID = 4153,
+                    OfferNumber = 1,
                     GuaranteeCarNumber = 4,
-                    RegistrationNumber = 654321,
-                    ContactTelephone = "87 65 43 21",
+                    RegistrationNumber = "BB22333",
+                    ContactTelephone = "51929999",
                     CarType = 2,
-                    CarLocation = null,
-                    CarPrice = null,
-                    CarOwner = null
+                    //CarLocation = null,
+                    //CarPrice = null,
+                    //CarOwner = null
                 },
 
             };

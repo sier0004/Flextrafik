@@ -11,6 +11,8 @@ namespace FlextrafikWebApplication
 {
     public partial class CreateOffer : System.Web.UI.Page
     {
+        private Context _db = new Context();
+        Car newCar = new Car();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -18,7 +20,7 @@ namespace FlextrafikWebApplication
 
         protected void CreateOfferButton_Click(object sender, EventArgs e)
         {
-            Car newCar = new Car();
+            //Car newCar = new Car();
             try
             {
                 int carIDInput;
@@ -49,16 +51,8 @@ namespace FlextrafikWebApplication
             {
                 ErrorMessage.Text = "Du må kun skrive tal.";
             }
-            try
-            {
-                int RegistrationInput;
-                int.TryParse(RegistrationNumber.Text, out RegistrationInput);
-                newCar.RegistrationNumber = RegistrationInput;
-            }
-            catch (Exception)
-            {
-                ErrorMessage.Text = "Du må kun skrive tal.";
-            }
+
+            newCar.RegistrationNumber = RegistrationNumber.Text;
             newCar.ContactTelephone = ContactTelephone.Text;
 
             if (CarType1.Checked == true)
@@ -89,6 +83,9 @@ namespace FlextrafikWebApplication
             {
                 ErrorMessage.Text = "Du skal vælge en vogntype.";
             }
+
+            _db.Cars.Add(newCar);
+            _db.SaveChanges();
         }
     }
 }

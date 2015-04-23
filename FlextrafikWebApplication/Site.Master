@@ -79,21 +79,21 @@
             </a>  
             <br />  
         </div>
-        <div id="ShowCars" style="text-align: center">       
+<%--        <div id="ShowCars" style="text-align: center">       
             <asp:ListView ID="carList"  
                 ItemType="FlextrafikWebApplication.Models.Car" 
                 runat="server"
                 SelectMethod="GetCars" >
                 <ItemTemplate>
                     <b style="font-size: large; font-style: normal">
-                        <a href="/Account/ShowOffer.aspx?id=<%#: Item.CarID %>">
+                        <a href="/Account/ShowOffer.aspx?id=<%#: Item.RegistrationNumber %>">
                         <%#: Item.CarType %>
                         </a>
                     </b>
                 </ItemTemplate>
                 <ItemSeparatorTemplate>  |  </ItemSeparatorTemplate>
             </asp:ListView>
-        </div>
+        </div>--%>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

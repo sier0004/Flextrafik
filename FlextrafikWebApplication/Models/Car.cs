@@ -19,7 +19,7 @@ namespace FlextrafikWebApplication.Models
         public int GuaranteeCarNumber { get; set; }
 
         [Required, Display(Name = "Registreringsnr.")]
-        public int RegistrationNumber { get; set; }
+        public string RegistrationNumber { get; set; }
 
         [Required, Display(Name = "Telefonnummer")]
         public string ContactTelephone { get; set; }

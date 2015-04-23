@@ -13,7 +13,7 @@
                 <EmptyDataTemplate>
                     <table >
                         <tr>
-                            <td>No data was returned.</td>
+                            <td>Ingen data.</td>
                         </tr>
                     </table>
                 </EmptyDataTemplate>
@@ -31,20 +31,19 @@
                             <tr>
                                 <td>
                                     <a href="OfferDetails.aspx?carID=<%#:Item.CarID%>">
-                                        <%--<img src="/Catalog/Images/Thumbs/<%#:Item.ImagePath%>"
-                                            width="100" height="75" style="border: solid" />--%></a>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <a href="OfferDetails.aspx?carID=<%#:Item.CarID%>">
                                         <span>
-                                            <%#:Item.OfferNumber%>
+                                            <%#:Item.CarID%>
                                         </span>
                                     </a>
                                     <br />
                                     <span>
-                                        <b>Type: </b><%#:Item.CarType.ToString()%>
+                                        <b>Registreringsnummer: </b><%#:Item.RegistrationNumber.ToString()%>
                                     </span>
                                     <br />
                                 </td>
